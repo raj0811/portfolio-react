@@ -1,0 +1,133 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+*::-webkit-scrollbar {
+    display: none;
+}
+.main{
+    background-size: 100% 100%;
+    background-image: url('https://images.pexels.com/photos/114979/pexels-photo-114979.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    height: 90vh;
+    overflow: scroll;
+    display: flex;
+    justify-content: center;
+    overflow: scroll;
+}
+
+.body{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    /* overflow: scroll; */
+    height: max-content;
+}
+.upper{
+    /* border: 2px solid black; */
+    height: 70vh;
+    width: 100%;
+    margin: 1%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.text{
+    width: 50%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    padding: 1%;
+}
+.medata ul{
+    /* background-color: aqua; */
+    margin-top: 2%;
+}
+
+.medata ul li{
+    font-size: 1.34rem;
+}
+.lower{
+    /* border: 2px solid black; */
+    height: 140vh;
+    width: 100%;
+}
+
+.image{
+    width: 35%;
+    height: 75%;
+    /* border: 2px solid black; */
+    background-size: 100% 100%;
+    background-image: url('https://img.freepik.com/free-vector/programmer-working-isometric-style_52683-16729.jpg?size=626&ext=jpg&ga=GA1.2.1276807806.1686132950&semt=ais');
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.skillctn{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+.skillimg{
+    /* background-color: aquamarine; */
+    height: 85%;
+    width: 90%;
+}
+
+.skillsbox{
+    height: 28vh;
+    width: 15%;
+    border: 2px solid black;
+    margin: 1%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 10px 42px 0px rgb(42, 22, 230);
+    transition-duration: 1s;
+}
+.skillsbox:hover{
+    height: 35vh;
+    width: 20%;
+    box-shadow: 0px 10px 42px 0px rgb(230, 22, 102);
+}
+.contact{
+    width: 100%;
+    /* background-color: aqua; */
+    margin-top: 4%;
+    
+}
+
+.social{
+    display: flex;
+    /* width: 70%; */
+    justify-content: space-evenly;
+    /* background-color: black; */
+}
+.social .sbox{
+    /* background-color: aqua; */
+    height: 28vh;
+    width: 15%;
+    transition-duration: 1s;
+}
+.sbox a,img{
+    height: 100%;
+    width: 100%;
+}
+.hhead{
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.sbox:hover{
+    box-shadow: 0px 10px 42px 0px rgb(42, 22, 230);
+    height: 25vh;
+    width: 13%;
+
+}
+
+
